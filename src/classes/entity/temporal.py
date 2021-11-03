@@ -2,10 +2,11 @@ from enum import Enum
 
 class TemporalType(Enum):
     DATETIME = 0
-    HOUR = 1 
-    DAY = 2
-    MONTH = 3
-    YEAR = 4
+    DATE = 1
+    HOUR = 2 
+    DAY = 3
+    MONTH = 4
+    YEAR = 5
 
 class Temporal:
     def __init__(self, id:int=0, mapname:str = '', temporal_type:TemporalType = TemporalType.DATETIME):
