@@ -8,6 +8,7 @@ __pycache__/
 
 #Database files
 *.sqlite
+assets/db/test_database.sqlite
 
 # Distribution / packaging
 .Python
